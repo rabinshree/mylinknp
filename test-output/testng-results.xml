@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="11" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="97249" started-at="2020-01-11T10:17:11 EST" finished-at="2020-01-11T10:18:48 EST">
+    <groups>
+    </groups>
+    <test name="SmokeTest" duration-ms="97249" started-at="2020-01-11T10:17:11 EST" finished-at="2020-01-11T10:18:48 EST">
+      <class name="E2EProject.NegativeLoginTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="SetUp" is-config="true" duration-ms="9507" started-at="2020-01-11T10:17:11 EST" finished-at="2020-01-11T10:17:21 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="VerifyCharecterinPW()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="VerifyCharecterinPW" duration-ms="1476" started-at="2020-01-11T10:17:21 EST" finished-at="2020-01-11T10:17:22 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCharecterinPW -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="tearDown" is-config="true" duration-ms="966" started-at="2020-01-11T10:17:22 EST" finished-at="2020-01-11T10:17:23 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="SetUp" is-config="true" duration-ms="6707" started-at="2020-01-11T10:17:23 EST" finished-at="2020-01-11T10:17:30 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="FAIL" signature="VerifyInvalidPWblanks()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="VerifyInvalidPWblanks" duration-ms="1355" started-at="2020-01-11T10:17:30 EST" finished-at="2020-01-11T10:17:31 EST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failed to login: Invalid username or password expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failed to login: Invalid username or password expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at E2EProject.NegativeLoginTest.VerifyInvalidPWblanks(NegativeLoginTest.java:90)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidPWblanks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="tearDown" is-config="true" duration-ms="696" started-at="2020-01-11T10:17:31 EST" finished-at="2020-01-11T10:17:32 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="SetUp" is-config="true" duration-ms="5599" started-at="2020-01-11T10:17:32 EST" finished-at="2020-01-11T10:17:37 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="VerifyInvalidUserName()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="VerifyInvalidUserName" duration-ms="1238" started-at="2020-01-11T10:17:37 EST" finished-at="2020-01-11T10:17:39 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="tearDown" is-config="true" duration-ms="719" started-at="2020-01-11T10:17:39 EST" finished-at="2020-01-11T10:17:39 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="SetUp" is-config="true" duration-ms="5283" started-at="2020-01-11T10:17:39 EST" finished-at="2020-01-11T10:17:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="VerifyNumberPW()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="VerifyNumberPW" duration-ms="1319" started-at="2020-01-11T10:17:45 EST" finished-at="2020-01-11T10:17:46 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNumberPW -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="tearDown" is-config="true" duration-ms="706" started-at="2020-01-11T10:17:46 EST" finished-at="2020-01-11T10:17:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="SetUp" is-config="true" duration-ms="5652" started-at="2020-01-11T10:17:47 EST" finished-at="2020-01-11T10:17:52 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="VerifyNumberinUserID()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="VerifyNumberinUserID" duration-ms="1251" started-at="2020-01-11T10:17:52 EST" finished-at="2020-01-11T10:17:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNumberinUserID -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="tearDown" is-config="true" duration-ms="694" started-at="2020-01-11T10:17:54 EST" finished-at="2020-01-11T10:17:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="SetUp" is-config="true" duration-ms="5396" started-at="2020-01-11T10:17:54 EST" finished-at="2020-01-11T10:18:00 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="VerifyUserNamrEmty()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="VerifyUserNamrEmty" duration-ms="1231" started-at="2020-01-11T10:18:00 EST" finished-at="2020-01-11T10:18:01 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserNamrEmty -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="tearDown" is-config="true" duration-ms="695" started-at="2020-01-11T10:18:01 EST" finished-at="2020-01-11T10:18:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="SetUp" is-config="true" duration-ms="5359" started-at="2020-01-11T10:18:02 EST" finished-at="2020-01-11T10:18:07 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="VerifyUsernamePWblanks()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="VerifyUsernamePWblanks" duration-ms="1236" started-at="2020-01-11T10:18:07 EST" finished-at="2020-01-11T10:18:08 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUsernamePWblanks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="tearDown" is-config="true" duration-ms="703" started-at="2020-01-11T10:18:08 EST" finished-at="2020-01-11T10:18:09 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="SetUp" is-config="true" duration-ms="8031" started-at="2020-01-11T10:18:09 EST" finished-at="2020-01-11T10:18:17 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verifyInvalidPW()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="verifyInvalidPW" duration-ms="1512" started-at="2020-01-11T10:18:17 EST" finished-at="2020-01-11T10:18:18 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPW -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.NegativeLoginTest@1b68ddbd]" name="tearDown" is-config="true" duration-ms="715" started-at="2020-01-11T10:18:18 EST" finished-at="2020-01-11T10:18:19 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EProject.NegativeLoginTest -->
+      <class name="E2EProject.ValidLoginTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:E2EProject.ValidLoginTest@59e5ddf]" name="SetUp" is-config="true" duration-ms="5870" started-at="2020-01-11T10:18:26 EST" finished-at="2020-01-11T10:18:32 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="LogOutTest()[pri:0, instance:E2EProject.ValidLoginTest@59e5ddf]" name="LogOutTest" duration-ms="6165" started-at="2020-01-11T10:18:32 EST" finished-at="2020-01-11T10:18:38 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.ValidLoginTest@59e5ddf]" name="tearDown" is-config="true" duration-ms="742" started-at="2020-01-11T10:18:38 EST" finished-at="2020-01-11T10:18:39 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:E2EProject.ValidLoginTest@59e5ddf]" name="SetUp" is-config="true" duration-ms="7010" started-at="2020-01-11T10:18:39 EST" finished-at="2020-01-11T10:18:46 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verifyValidLoginTest()[pri:0, instance:E2EProject.ValidLoginTest@59e5ddf]" name="verifyValidLoginTest" duration-ms="1330" started-at="2020-01-11T10:18:46 EST" finished-at="2020-01-11T10:18:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.ValidLoginTest@59e5ddf]" name="tearDown" is-config="true" duration-ms="712" started-at="2020-01-11T10:18:48 EST" finished-at="2020-01-11T10:18:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EProject.ValidLoginTest -->
+      <class name="E2EProject.TitleTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:E2EProject.TitleTest@646d64ab]" name="SetUp" is-config="true" duration-ms="6473" started-at="2020-01-11T10:18:19 EST" finished-at="2020-01-11T10:18:26 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verifyValidLoginTest()[pri:0, instance:E2EProject.TitleTest@646d64ab]" name="verifyValidLoginTest" duration-ms="25" started-at="2020-01-11T10:18:26 EST" finished-at="2020-01-11T10:18:26 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:E2EProject.TitleTest@646d64ab]" name="tearDown" is-config="true" duration-ms="781" started-at="2020-01-11T10:18:26 EST" finished-at="2020-01-11T10:18:26 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EProject.TitleTest -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
